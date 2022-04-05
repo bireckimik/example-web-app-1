@@ -4,7 +4,7 @@ name: JavaScript CI
 on: [push]
 
 env:
-  AZURE_WEBAPP_NAME: my-app   # set this to your application's name
+  AZURE_WEBAPP_NAME: mikolaj-test   # set this to your application's name
   NODE_VERSION: '14.x'                # set this to the node version to use
 
 jobs:
