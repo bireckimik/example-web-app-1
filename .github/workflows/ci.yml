@@ -41,4 +41,4 @@ jobs:
 
     - uses: azure/login@v1
       with:
-        creds: ${{ secrets.creds }}
+        creds: ${{ secrets.CREDS }}
