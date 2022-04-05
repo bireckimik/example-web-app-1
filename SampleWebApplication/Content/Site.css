@@ -1,4 +1,4 @@
-html,
+﻿html,
 body {
     height: 100%;
     width: 100%;
@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: "Segoe UI";
-    src: url('../fonts/segoeuil.ttf') format('truetype');
+    src: url('../fonts/segoeuil.ttf');
 }
 
 .main-container {
@@ -21,6 +21,8 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     font-family: "Segoe UI";
+
+
     padding: 80px;
     margin-bottom: 30px;
 }
@@ -32,7 +34,7 @@ body {
     margin: auto;
 }
 
-    .cloud-image img {
+.cloud-image img {
         width: 100%;
         height: 100%;
     }
@@ -65,10 +67,10 @@ body {
     margin: 0 20px;
     position: absolute;
     left: -55px;
-    top: 90px;
+    top: 80px;
 }
 
-    .tweet-container img {
+.tweet-container img {
         width: 100%;
         height: 100%;
     }
@@ -78,5 +80,6 @@ body {
 }
 
 .col-md-4 {
+    
     color: black;
 }
