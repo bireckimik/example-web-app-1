@@ -38,3 +38,7 @@ jobs:
       with: 
         name: my-app
         path: out
+
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.creds }}
